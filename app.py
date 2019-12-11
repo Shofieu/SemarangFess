@@ -2,7 +2,7 @@ from twitter import Twitter
 import time
 
 #test pancing ke heroku supaya keluar dyno
-#test kedua pancing worker supaya muncul oke 2
+#test kedua pancing worker supaya muncul oke 3
 
 tw = Twitter()
 
