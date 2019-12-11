@@ -2,7 +2,7 @@ from twitter import Twitter
 import time
 
 #test pancing ke heroku supaya keluar dyno
-#test kedua pancing worker supaya muncul oke 3
+#test kedua pancing worker supaya muncul...
 
 tw = Twitter()
 
@@ -18,7 +18,7 @@ def start():
 
                 if len(message) is not 0 and len(message) < 280:
                     if "prikitiw" in message:
-                        message = message.replace("tgmd", "")
+                        message = message.replace("prikitiw", "")
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
                                 print("DM will be posted")
