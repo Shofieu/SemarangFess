@@ -49,7 +49,7 @@ class Twitter:
             time.sleep(60)
             pass
 
-
+"""
     def delete_dm(self, id):
         print("Deleting dm with id = "+ str(id))
         try:
@@ -59,7 +59,7 @@ class Twitter:
             print(ex)
             time.sleep(40)
             pass
-
+"""
 
     def post_tweet(self, tweet):
         self.api.update_status(tweet)
