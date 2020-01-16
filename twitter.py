@@ -60,7 +60,6 @@ class Twitter:
             time.sleep(40)
             pass
 """
-
     def post_tweet(self, tweet):
         self.api.update_status(tweet)
 
