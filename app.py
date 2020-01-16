@@ -18,7 +18,7 @@ def start():
 
                 if len(message) is not 0 and len(message) < 280:
                     if "ndes" in message:
-                        #message = message.replace("ndes", "")
+                        #message = message.replace("Ndes", "")
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
                                 print("DM will be posted")
